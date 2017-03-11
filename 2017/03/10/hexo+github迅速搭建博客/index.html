@@ -1,210 +1,97 @@
 <!DOCTYPE html>
-
-
-  <html class="light page-post">
-
-
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  
-  <title>hexo+github迅速搭建博客 | Nethard</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  
-    <meta name="keywords" content="博客," />
-  
-
-  <meta name="description" content="导语随着所学的编程技术越来越多,最近萌生出写博客的念头,以整理这几年所学,同时达到温故而知新的目的.
-起初考虑过用WordPress搭建一个博客,或者使用CSDN,博客园.但是用WordPress首先要有主机,需要管理的东西也太多,各种各样的配置,感到十分麻烦.而后者又门槛太低,不够优雅不够geek.
-于是想到用hexo,部署到GitHub page上,再绑定域名即可.省钱省力,自由而优雅.
-准备">
-<meta property="og:type" content="article">
-<meta property="og:title" content="hexo+github迅速搭建博客">
-<meta property="og:url" content="http://yoursite.com/2017/03/10/hexo+github迅速搭建博客/index.html">
-<meta property="og:site_name" content="Nethard">
-<meta property="og:description" content="导语随着所学的编程技术越来越多,最近萌生出写博客的念头,以整理这几年所学,同时达到温故而知新的目的.
-起初考虑过用WordPress搭建一个博客,或者使用CSDN,博客园.但是用WordPress首先要有主机,需要管理的东西也太多,各种各样的配置,感到十分麻烦.而后者又门槛太低,不够优雅不够geek.
-于是想到用hexo,部署到GitHub page上,再绑定域名即可.省钱省力,自由而优雅.
-准备">
-<meta property="og:updated_time" content="2017-03-10T14:43:04.862Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo+github迅速搭建博客">
-<meta name="twitter:description" content="导语随着所学的编程技术越来越多,最近萌生出写博客的念头,以整理这几年所学,同时达到温故而知新的目的.
-起初考虑过用WordPress搭建一个博客,或者使用CSDN,博客园.但是用WordPress首先要有主机,需要管理的东西也太多,各种各样的配置,感到十分麻烦.而后者又门槛太低,不够优雅不够geek.
-于是想到用hexo,部署到GitHub page上,再绑定域名即可.省钱省力,自由而优雅.
-准备">
-
-  
-
-  
-    <link rel="icon" href="/favicon.ico">
-  
-
-  <link href="/css/styles.css?v=c114cbe6" rel="stylesheet">
-
-
-  
-    <link rel="stylesheet" href="/css/personal-style.css">
-  
-
-  
-
-  
-
-  
-
-
-  
-    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-  
-
-  
-    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  
+    <meta charset="utf-8">
+    
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    
+    <meta name="author" content="thorn">
+    
+    
+    
+    <title>
+        
+        hexo+github迅速搭建博客 |
+        
+        Nethard</title>
+    
+    <link rel="stylesheet" href="/stylesheets/style.min.css">
+    
 </head>
-
 <body>
 
+<span id="top"> </span>
 
-  
-    <span id="toolbox-mobile" class="toolbox-mobile">盒子</span>
-  
+<aside id="sidebar" >
+    <div id="sidebar-overlay">
+        <div id="sidebar-inner-wrap">
+            <nav id="site-nav">
+                <ul class="list-unstyled">
+                    
+                    
+                    <li><a href="/">首页</a></li>
+                    
+                    
+                    
+                    <li><a href="/archives">文章</a></li>
+                    
+                    
+                    
+                    <li><a href="/tags">标签</a></li>
+                    
+                    
+                    
+                    <li><a href="/about">关于</a></li>
+                    
+                    
+                </ul>
+            </nav>
+            <div id="site-intro">
+                <p>
+                    
+                    NETHARD
+                    
+                    
+                    <small>.cn</small>
+                    
+                </p>
+                
+                <p>一个后端抠脚菜鸟的博客</p>
+                
+            </div>
+        </div>
 
-  <div class="post-header CENTER">
-   
-  <div class="toolbox">
-    <a class="toolbox-entry" href="/">
-      <span class="toolbox-entry-text">盒子</span>
-      <i class="icon-angle-down"></i>
-      <i class="icon-home"></i>
-    </a>
-    <ul class="list-toolbox">
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/archives/"
-            rel="noopener noreferrer"
-            target="_self"
-            >
-            博客
-          </a>
-        </li>
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/category/"
-            rel="noopener noreferrer"
-            target="_self"
-            >
-            分类
-          </a>
-        </li>
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/tag/"
-            rel="noopener noreferrer"
-            target="_self"
-            >
-            标签
-          </a>
-        </li>
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/link/"
-            rel="noopener noreferrer"
-            target="_self"
-            >
-            友链
-          </a>
-        </li>
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/about/"
-            rel="noopener noreferrer"
-            target="_self"
-            >
-            关于
-          </a>
-        </li>
-      
-        <li class="item-toolbox">
-          <a
-            class="CIRCLE"
-            href="/search/"
-            rel="noopener noreferrer"
-            target="_self"
-            >
-            搜索
-          </a>
-        </li>
-      
-    </ul>
-  </div>
-
-
-</div>
-
-
-  <div id="toc" class="toc-article">
-    <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#导语"><span class="toc-text">导语</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#准备"><span class="toc-text">准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#建站"><span class="toc-text">建站</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#部署到github"><span class="toc-text">部署到github</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结语"><span class="toc-text">结语</span></a></li></ol>
-  </div>
-
-
-
-<div class="content content-post CENTER">
-   <article id="post-hexo+github迅速搭建博客" class="article article-type-post" itemprop="blogPost">
-  <header class="article-header">
-    <h1 class="post-title">hexo+github迅速搭建博客</h1>
-
-    <div class="article-meta">
-      <span>
-        <i class="icon-calendar"></i>
-        <span>2017.03.10</span>
-      </span>
-
-      
-        <span class="article-author">
-          <i class="icon-user"></i>
-          <span>thorn</span>
-        </span>
-      
-
-      
-  <span class="article-category">
-    <i class="icon-list"></i>
-    <a class="article-category-link" href="/categories/随笔/">随笔</a>
-  </span>
-
-
-
-      
-
-      
-      <i class="fa fa-eye"></i> 
-        <span id="busuanzi_container_page_pv">
-           &nbsp热度 <span id="busuanzi_value_page_pv">
-           <i class="fa fa-spinner fa-spin"></i></span>℃
-        </span>
-      
-
-      
-      
+        
+        <a href="https://unsplash.com" target="_blank" id="image-source" class="align-left hidden-xs"
+           data-content="Photo from unsplash.com">i</a>
+        
     </div>
-  </header>
+</aside>
 
-  <div class="article-content">
-    
-      <h2 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h2><p>随着所学的编程技术越来越多,最近萌生出写博客的念头,以整理这几年所学,同时达到温故而知新的目的.</p>
+<main id="main-container">
+    <div id="main-inner-wrap">
+        <div id="page-content">
+            
+
+            <article id="article-post" class="post">
+    <div class="post-inner-wrap">
+        
+        <h1 id="page-title">hexo+github迅速搭建博客</h1>
+
+        <ul class="post-meta list-inline">
+            <li>时间：<time>2017-03-10</time></li>
+            
+            <li>
+                <ul class="post-tags-list"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/博客/">博客</a></li></ul>
+            </li>
+            
+        </ul>
+        
+
+        <div class="content">
+            <h2 id="导语"><a href="#导语" class="headerlink" title="导语"></a>导语</h2><p>随着所学的编程技术越来越多,最近萌生出写博客的念头,以整理这几年所学,同时达到温故而知新的目的.</p>
 <p>起初考虑过用WordPress搭建一个博客,或者使用CSDN,博客园.但是用WordPress首先要有主机,需要管理的东西也太多,各种各样的配置,感到十分麻烦.而后者又门槛太低,不够优雅不够geek.</p>
 <p>于是想到用hexo,部署到GitHub page上,再绑定域名即可.省钱省力,自由而优雅.</p>
 <h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>我所用的是elementary os系统,一个基于Ubuntu的Linux发行版.因此安装hexo环境十分便捷</p>
@@ -260,183 +147,31 @@
 </blockquote>
 <h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>在架设博客中,肯定会碰见各种各样的问题,如果仅仅按照上述步骤,在不是很了解hexo的情况下,100%会出现错误以上只是简单的叙述hexo+github搭建博客.具体仍是建议参考官网文档.</p>
 
-    
-  </div>
+        </div>
+    </div>
 </article>
 
 
-   
-  <div class="text-center donation">
-    <div class="inner-donation">
-      <span class="btn-donation">支持一下</span>
-      <div class="donation-body">
-        <div class="tip text-center">扫一扫，支持Nethard</div>
-        <ul class="theme.donation.items.length">
-        
-          <li class="item">
-            <img src="/images/qr-wechat.png" alt="">
-          </li>
-        
-          <li class="item">
-            <img src="/images/qr-alipay.png" alt="">
-          </li>
-        
-        </ul>
-      </div>
+        </div>
+        <footer id="mastfoot">
+            <p>
+                Powered by <a href="http://www.hexo.io" target="_blank">Hexo</a> |
+        	build by <a href="http://github.com/ly947777046">luoyong</a> |
+                <a href="/atom.xml">RSS</a>
+            </p>
+
+            
+            <p>Since 2017雨季将至未至</p>
+            
+        </footer>
     </div>
-  </div>
+</main>
 
-
-   
-  <div class="box-prev-next clearfix">
-    <a class="hide pull-left" href="/">
-        <i class="icon icon-angle-left"></i>
-    </a>
-    <a class="hide pull-right" href="/">
-        <i class="icon icon-angle-right"></i>
-    </a>
-  </div>
-
-
-
-
-</div>
-
-
-  <a id="backTop" class="back-top">
-    <i class="icon-angle-up"></i>
-  </a>
-
-
-
-
-  <div class="modal" id="modal">
-  <span id="cover" class="cover hide"></span>
-  <div id="modal-dialog" class="modal-dialog hide-dialog">
-    <div class="modal-header">
-      <span id="close" class="btn-close">关闭</span>
-    </div>
-    <hr>
-    <div class="modal-body">
-      <ul class="list-toolbox">
-        
-          <li class="item-toolbox">
-            <a
-              class="CIRCLE"
-              href="/archives/"
-              rel="noopener noreferrer"
-              target="_self"
-              >
-              博客
-            </a>
-          </li>
-        
-          <li class="item-toolbox">
-            <a
-              class="CIRCLE"
-              href="/category/"
-              rel="noopener noreferrer"
-              target="_self"
-              >
-              分类
-            </a>
-          </li>
-        
-          <li class="item-toolbox">
-            <a
-              class="CIRCLE"
-              href="/tag/"
-              rel="noopener noreferrer"
-              target="_self"
-              >
-              标签
-            </a>
-          </li>
-        
-          <li class="item-toolbox">
-            <a
-              class="CIRCLE"
-              href="/link/"
-              rel="noopener noreferrer"
-              target="_self"
-              >
-              友链
-            </a>
-          </li>
-        
-          <li class="item-toolbox">
-            <a
-              class="CIRCLE"
-              href="/about/"
-              rel="noopener noreferrer"
-              target="_self"
-              >
-              关于
-            </a>
-          </li>
-        
-          <li class="item-toolbox">
-            <a
-              class="CIRCLE"
-              href="/search/"
-              rel="noopener noreferrer"
-              target="_self"
-              >
-              搜索
-            </a>
-          </li>
-        
-      </ul>
-
-    </div>
-  </div>
-</div>
-
-
-
-  
-      <div class="fexo-comments comments-post">
-    
-
-    
-
-
-
-
-    
-
-  </div>
-
-  
-
-  <script type="text/javascript">
-  function loadScript(url, callback) {
-    var script = document.createElement('script')
-    script.type = 'text/javascript';
-
-    if (script.readyState) { //IE
-      script.onreadystatechange = function() {
-        if (script.readyState == 'loaded' ||
-          script.readyState == 'complete') {
-          script.onreadystatechange = null;
-          callback();
-        }
-      };
-    } else { //Others
-      script.onload = function() {
-        callback();
-      };
+<script>
+    var sidebar = document.getElementById('sidebar');
+    if (!sidebar.getAttribute('style')) {
+        sidebar.setAttribute('style', 'background-image: url(/images/sidebar-bg/' + Math.floor(Math.random() * parseInt('16')) + '.jpg)');
     }
-
-    script.src = url;
-    document.getElementsByTagName('head')[0].appendChild(script);
-  }
-
-  window.onload = function() {
-    loadScript('/js/bundle.js?235683', function() {
-      // load success
-    });
-  }
 </script>
 
 </body>
