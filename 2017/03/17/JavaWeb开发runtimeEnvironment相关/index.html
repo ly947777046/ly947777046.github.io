@@ -13,7 +13,7 @@
     
     <title>
         
-        所有标签 |
+        JavaWeb开发runtimeEnvironment相关 |
         
         Nethard</title>
     
@@ -74,20 +74,62 @@
     <div id="main-inner-wrap">
         <div id="page-content">
             
-            
-            <h1 id="page-title">所有标签</h1>
-            
 
-            
-            
+            <article id="article-post" class="post">
+    <div class="post-inner-wrap">
+        
+        <h1 id="page-title">JavaWeb开发runtimeEnvironment相关</h1>
 
+        <ul class="post-meta list-inline">
+            <li>时间：<time>2017-03-17</time></li>
             
-<div id="page-article-list" class="container">
-    <p id="total-tag-num">共 4 个标签</p>
-    <div id="tag-cloud-list">
-        <a href="/tags/JavaWeb开发/" style="font-size: 14px; color: rgba(0, 0, 0, 0.4)">JavaWeb开发</a> <a href="/tags/linux/" style="font-size: 14px; color: rgba(0, 0, 0, 0.4)">linux</a> <a href="/tags/博客/" style="font-size: 14px; color: rgba(0, 0, 0, 0.4)">博客</a> <a href="/tags/随笔/" style="font-size: 30px; color: #000">随笔</a>
+            <li>
+                <ul class="post-tags-list"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/JavaWeb开发/">JavaWeb开发</a></li></ul>
+            </li>
+            
+        </ul>
+        
+
+        <div class="content">
+            <p>最近用spring3.2+mybatis3.2框架写了个demo，一运行报错：</p>
+<blockquote>
+<p>java.lang.IllegalArgumentException</p>
+<p>&emsp;&emsp;at …</p>
+<p>&emsp;&emsp;&emsp;…</p>
+</blockquote>
+<p>上stackoverflow一查，so easy,spring与jdk版本的问题。俩选择：要么用spring4+jdk1.8,要么用降jdk为1.7.</p>
+<p>降jdk！系统切换jdk环境修改bashrc就可。</p>
+<p>那么问题又来了！eclipse上tomcat又运行报错：</p>
+<blockquote>
+<p>The JRE could not be found. Edit the server and change the JRE location</p>
+</blockquote>
+<p>又是一通Google。同样so easy！</p>
+<p>换掉Project的JRE后，</p>
+<ul>
+<li>Go to Eclipse -&gt; Preference</li>
+<li>Search for runtime</li>
+<li>Click on Runtime Environments</li>
+<li>Select Apache Tomcat 8 -&gt; click Edit</li>
+</ul>
+<p>一切迎刃而解，如春风拂面舒适。</p>
+<p>再回头看，不由得深思！每每报错，程序已经很明显的把错误指出了。其实只需要去看错误信息即可立马去改正，根本无需去Google去百度！心烦意燥是开发过程中的大忌，该改之，勇敢去面对错误提示，静下心去思考，而不是动辄上网找答案。</p>
+
+        </div>
     </div>
-</div>
+</article>
+
+<nav id="article-nav">
+    <ul class="list-unstyled">
+        <li>
+            
+        </li>
+        <li>
+            
+            <a href="/2017/03/16/终于还是入了Linux的坑/" class="next" data-title="终于还是入了Linux的坑"></a>
+            
+        </li>
+    </ul>
+</nav>
 
 
         </div>
