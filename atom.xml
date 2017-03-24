@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nethard.cn/"/>
-  <updated>2017-03-21T15:29:05.620Z</updated>
+  <updated>2017-03-24T15:02:34.728Z</updated>
   <id>http://nethard.cn/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>抹不掉的是过去</title>
+    <link href="http://nethard.cn/2017/03/24/%E6%8A%B9%E4%B8%8D%E6%8E%89%E7%9A%84%E6%98%AF%E8%BF%87%E5%8E%BB/"/>
+    <id>http://nethard.cn/2017/03/24/抹不掉的是过去/</id>
+    <published>2017-03-24T14:15:02.000Z</published>
+    <updated>2017-03-24T15:02:34.728Z</updated>
+    
+    <content type="html"><![CDATA[<p>我没留下几件缅怀过去的物件。</p>
+<p>且不说那些个小物件。QQ空间里的照片、说说，都不能好好保存，那全是回忆啊！</p>
+<p>有一阵子我喜欢删东西。闲暇时会去“审查”发布的动态，回头看时感觉自己傻傻的，觉得是羞耻，然后就删了…QQ相册清空，说说删干净，好像这样就能抛开所有，重新开始。殊不知，总会不经意间回忆起。记忆没法删去。</p>
+<p>那时我还没学会好好与自己相处。不知道谁都会有犯傻的时候，偏偏追求一切完美。</p>
+<p>现在吧，无所谓了，傻的呆的犯混的都是自己。越来越少去记录真实情绪，暴露的一面基本都是策划好的。也不会再去发无聊的操蛋的渲染得世界末日一样的伤感惆怅忧郁。</p>
+<p>甚至手机游戏分享领奖励的动态都随他去了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我没留下几件缅怀过去的物件。&lt;/p&gt;
+&lt;p&gt;且不说那些个小物件。QQ空间里的照片、说说，都不能好好保存，那全是回忆啊！&lt;/p&gt;
+&lt;p&gt;有一阵子我喜欢删东西。闲暇时会去“审查”发布的动态，回头看时感觉自己傻傻的，觉得是羞耻，然后就删了…QQ相册清空，说说删干净，好像这样就能抛
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://nethard.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>初步涉及spring</title>
